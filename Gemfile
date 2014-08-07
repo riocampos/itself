@@ -1,4 +1,11 @@
 source "http://rubygems.org"
+
+target = "2.1.2"
+if Gem::Version.new(RUBY_VERSION.dup) > Gem::Version.new(target)
+  puts "Use ruby #{target}- (Your version is #{RUBY_VERSION})"
+  exit(1)
+end
+
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"

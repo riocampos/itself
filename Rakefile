@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "itself"
   gem.homepage = "http://github.com/riocampos/itself"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{return self}
+  gem.description = %Q{This method return reciever's self (for < MRI 2.2.0).}
   gem.email = "riocampos22@gmail.com"
   gem.authors = ["riocampos"]
   # dependencies defined in Gemfile
